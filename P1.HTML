@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Candidate Registration</title>
+    </head>
+        <body BGCOLOR="Black">
+        <TITLE CELLPADDING="10" WIDTH="700"></TITLE>
+    <CENTER><CAPTION ALIGN="top">
+            <H2><font color="Yellow"><b>Regitration</b></font></H2></CAPTION>
+   
+        <form action="register.jsp" method="post">
+    <TABLE BORDER="0">
+<tr>
+<td><B><font color="Yellow">First Name:</font></B></td>
+    <td><INPUT TYPE="TEXT" name="fnm" size="40" placeholder=" First Name "></td>
+</tr>
+<TR>
+<TD><B><font color="Yellow"> Last Name:</font></B></TD>
+<td><INPUT TYPE="TEXT" name="lnm" size="40" maxlength="40"></td>
+    </TR><br>
+<TR>
+    <td><B><font color="Yellow">Mobile No:</font></B></td>
+    <td><INPUT TYPE = "TEXT" name="mob"size="40"></td>
+</TR><br>
+<TR>
+    <TD><B><font color="Yellow"> Gender:</font></B></td>
+    <td><INPUT TYPE="Radio" name="Gender"><font color="yellow">Male</font>
+        <INPUT TYPE="Radio" name="Gender"><font color="yellow">Female</font>
+        <INPUT TYPE="Radio" name="Gender"><font color="yellow">Transgender</font>
+    </td>
+</TR><br>
+
+<tr>
+    <td><B><font color="Yellow">Email </font></B></td>
+    <td><INPUT TYPE="TEXT" name="eml" size="40" maxlength="40"></td>
+</tr>
+<tr>
+    <td><B><font color="Yellow">Password:</font></B></td>
+    <td><INPUT TYPE="Password" name="pass" SIZE="40" MAXLENGHT="40" VALUE=""></td>
+</tr>
+    <tr>
+    <td>
+        <B><font color="Yellow">date of Birth:</font></B></td>
+    <td>
+<select name="Month">
+    <option value="month"><font color="yellow">Month</font></option>
+    <option value="January">January</option>
+    <option value="February">February</option>
+     <option value="March">march</option>
+</select>
+    <select name="days">
+    <option value="days"><font color="yellow"></font>Days</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+<select name="years">
+    <option value="years"><font color="yellow">Years</font></option>
+    <option value="1999">1999</option>
+     <option value="2000">2000</option>
+      <option value="2001">2001</option>
+</select>
+</td>
+</tr>
+<tr>
+    <td><b> </b></td>
+    <td align="center"><INPUT TYPE="SUBMIT" name="SUBMIT" VALUE="SUBMIT"></center></td>    
+</tr>
+   </center>  
+    </TABLE>
+       </form>
+          </body>
+</html>
+
